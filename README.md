@@ -42,9 +42,6 @@ I don't wanna
 #### Will it fit a Planck case?
 Yes! In theory. If you break off the numpad. Hasn't been tested.
 
-#### Did you steal the Rick artwork off the internet?
-Yes
-
 #### Why USB C?
 That's a dumb question
 
