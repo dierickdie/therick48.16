@@ -1,13 +1,9 @@
-# therick64
-![alt text](https://github.com/therickthe/therick64BA/blob/master/01%20therick64BA_back.png)
+# therick_19mm
+![alt text](https://github.com/therickthe/therick_19mm/blob/master/01%20therick_back.png)
 
-A 4x12 + 4x4 ortho keyboard with USB C and SMD components. The 4x4 breaks away to just have 4x12
+A 4x12 + 4x4 ortho keyboard with USB C, SMD components, and 19mm spacing.
 
-This is a Planck clone plus numpad with 19.05mm spacing (Planck uses 19mm).
-
-This is a personal project to see if i could make a functioning PCB, and a huge thank you to Jack for his Planck design.
-
-I am not an electrical engineer, and this is my first PCB that uses an integrated MCU. A double huge thank you to Nautilus in the ai03 discord for helping me work out the final tweaks.
+This is essentially a Planck clone that is dumbed down, plus a numpad. The numpad is able to be snapped off to have just a 4x12.
 
 **I AM CONSTANTLY TWEAKING THE DESIGN. I HAVE NOT ORDERED A PHYSICAL PCB YET.**
 
@@ -16,7 +12,7 @@ Although everything should<sup>(tm)</sup> work as is, it hasn't been physically 
 **USE AT YOUR OWN RISK!!!** I am not responsible for any dumb things you do, fry your computer, break anything, etc.
 
 ## FAQ:
-#### Does it have MIT?
+#### Does it have MIT? 
 No. Grid for life
 
 #### Does it have backlighting?
@@ -43,14 +39,8 @@ No
 #### Why not?
 I don't wanna
 
-#### Why not use 19mm spacing like the Planck?
-Cuz I dumb
-
-#### Will you change it to 19mm spacing in the future?
-Maybe? But probably not. See therick_19mm for that
-
-#### Is the design finished?
-Never
+#### Will it fit a Planck case?
+Yes! In theory. If you break off the numpad. Hasn't been tested.
 
 #### Did you steal the Rick artwork off the internet?
 Yes
@@ -67,6 +57,6 @@ USB C is the future. Until a new standard comes out
 #### But I don't have any USB C cables.
 Boo hoo. I suggest building one. Zap Cables is a good place to get parts
 
-#### Why is it named therick64?
-It started in fall of 2005 when I was just a boy. I started a new job, and needed a login name. The manager wrote The Rick (my first name is Rick). It has stuck ever since. Thanks, Sam! The 64 is for 64 keys, if that wasn't obvious.
+#### Why is it named therick?
+It started in fall of 2005 when I was just a boy. I started a new job, and needed a login name. The manager wrote The Rick (my first name is Rick). It has stuck ever since. Thanks, Sam!
 

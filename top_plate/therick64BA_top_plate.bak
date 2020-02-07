@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:top_plate-cache
+LIBS:therick64BA_19mm_top_plate-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -17,67 +17,67 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DAFB0AC
-P 8000 4050
-F 0 "H2" H 8100 4096 50  0000 L CNN
-F 1 "MountingHole" H 8100 4005 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 8000 4050 50  0001 C CNN
-F 3 "~" H 8000 4050 50  0001 C CNN
-	1    8000 4050
+P 4450 5550
+F 0 "H2" H 4550 5596 50  0000 L CNN
+F 1 "MountingHole" H 4550 5505 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 4450 5550 50  0001 C CNN
+F 3 "~" H 4450 5550 50  0001 C CNN
+	1    4450 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DAFBA19
-P 8000 3850
-F 0 "H1" H 8100 3896 50  0000 L CNN
-F 1 "MountingHole" H 8100 3805 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 8000 3850 50  0001 C CNN
-F 3 "~" H 8000 3850 50  0001 C CNN
-	1    8000 3850
+P 4450 5350
+F 0 "H1" H 4550 5396 50  0000 L CNN
+F 1 "MountingHole" H 4550 5305 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 4450 5350 50  0001 C CNN
+F 3 "~" H 4450 5350 50  0001 C CNN
+	1    4450 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5DAFC41A
-P 8000 4250
-F 0 "H3" H 8100 4296 50  0000 L CNN
-F 1 "MountingHole" H 8100 4205 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 8000 4250 50  0001 C CNN
-F 3 "~" H 8000 4250 50  0001 C CNN
-	1    8000 4250
+P 4450 5750
+F 0 "H3" H 4550 5796 50  0000 L CNN
+F 1 "MountingHole" H 4550 5705 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 4450 5750 50  0001 C CNN
+F 3 "~" H 4450 5750 50  0001 C CNN
+	1    4450 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5DAFCFC0
-P 8000 4450
-F 0 "H4" H 8100 4496 50  0000 L CNN
-F 1 "MountingHole" H 8100 4405 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 8000 4450 50  0001 C CNN
-F 3 "~" H 8000 4450 50  0001 C CNN
-	1    8000 4450
+P 4450 5950
+F 0 "H4" H 4550 5996 50  0000 L CNN
+F 1 "MountingHole" H 4550 5905 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 4450 5950 50  0001 C CNN
+F 3 "~" H 4450 5950 50  0001 C CNN
+	1    4450 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5DAFD908
-P 8000 4650
-F 0 "H5" H 8100 4696 50  0000 L CNN
-F 1 "MountingHole" H 8100 4605 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 8000 4650 50  0001 C CNN
-F 3 "~" H 8000 4650 50  0001 C CNN
-	1    8000 4650
+P 4450 6150
+F 0 "H5" H 4550 6196 50  0000 L CNN
+F 1 "MountingHole" H 4550 6105 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 4450 6150 50  0001 C CNN
+F 3 "~" H 4450 6150 50  0001 C CNN
+	1    4450 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5DAFE1B7
-P 8000 4850
-F 0 "H6" H 8100 4896 50  0000 L CNN
-F 1 "MountingHole" H 8100 4805 50  0000 L CNN
-F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 8000 4850 50  0001 C CNN
-F 3 "~" H 8000 4850 50  0001 C CNN
-	1    8000 4850
+P 4450 6350
+F 0 "H6" H 4550 6396 50  0000 L CNN
+F 1 "MountingHole" H 4550 6305 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 4450 6350 50  0001 C CNN
+F 3 "~" H 4450 6350 50  0001 C CNN
+	1    4450 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -606,6 +606,226 @@ F 1 "HOLE" H 7150 4700 60  0000 L CNN
 F 2 "random-keyboard-parts:MX100_slot" H 7250 4750 60  0001 C CNN
 F 3 "" H 7250 4750 60  0001 C CNN
 	1    7250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U49
+U 1 1 5F46C0D2
+P 7800 3850
+F 0 "U49" H 7700 3900 60  0000 L CNN
+F 1 "HOLE" H 7700 3800 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 7800 3850 60  0001 C CNN
+F 3 "" H 7800 3850 60  0001 C CNN
+	1    7800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U50
+U 1 1 5F46C0D8
+P 8100 3850
+F 0 "U50" H 8000 3900 60  0000 L CNN
+F 1 "HOLE" H 8000 3800 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8100 3850 60  0001 C CNN
+F 3 "" H 8100 3850 60  0001 C CNN
+	1    8100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U51
+U 1 1 5F46C0DE
+P 8400 3850
+F 0 "U51" H 8300 3900 60  0000 L CNN
+F 1 "HOLE" H 8300 3800 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8400 3850 60  0001 C CNN
+F 3 "" H 8400 3850 60  0001 C CNN
+	1    8400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U52
+U 1 1 5F46C0E4
+P 8700 3850
+F 0 "U52" H 8600 3900 60  0000 L CNN
+F 1 "HOLE" H 8600 3800 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8700 3850 60  0001 C CNN
+F 3 "" H 8700 3850 60  0001 C CNN
+	1    8700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U53
+U 1 1 5F46C0EA
+P 7800 4150
+F 0 "U53" H 7700 4200 60  0000 L CNN
+F 1 "HOLE" H 7700 4100 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 7800 4150 60  0001 C CNN
+F 3 "" H 7800 4150 60  0001 C CNN
+	1    7800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U54
+U 1 1 5F46C0F0
+P 8100 4150
+F 0 "U54" H 8000 4200 60  0000 L CNN
+F 1 "HOLE" H 8000 4100 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8100 4150 60  0001 C CNN
+F 3 "" H 8100 4150 60  0001 C CNN
+	1    8100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U55
+U 1 1 5F46C0F6
+P 8400 4150
+F 0 "U55" H 8300 4200 60  0000 L CNN
+F 1 "HOLE" H 8300 4100 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8400 4150 60  0001 C CNN
+F 3 "" H 8400 4150 60  0001 C CNN
+	1    8400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U56
+U 1 1 5F46C0FC
+P 8700 4150
+F 0 "U56" H 8600 4200 60  0000 L CNN
+F 1 "HOLE" H 8600 4100 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8700 4150 60  0001 C CNN
+F 3 "" H 8700 4150 60  0001 C CNN
+	1    8700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U57
+U 1 1 5F46C102
+P 7800 4450
+F 0 "U57" H 7700 4500 60  0000 L CNN
+F 1 "HOLE" H 7700 4400 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 7800 4450 60  0001 C CNN
+F 3 "" H 7800 4450 60  0001 C CNN
+	1    7800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U58
+U 1 1 5F46C108
+P 8100 4450
+F 0 "U58" H 8000 4500 60  0000 L CNN
+F 1 "HOLE" H 8000 4400 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8100 4450 60  0001 C CNN
+F 3 "" H 8100 4450 60  0001 C CNN
+	1    8100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U59
+U 1 1 5F46C10E
+P 8400 4450
+F 0 "U59" H 8300 4500 60  0000 L CNN
+F 1 "HOLE" H 8300 4400 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8400 4450 60  0001 C CNN
+F 3 "" H 8400 4450 60  0001 C CNN
+	1    8400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U60
+U 1 1 5F46C114
+P 8700 4450
+F 0 "U60" H 8600 4500 60  0000 L CNN
+F 1 "HOLE" H 8600 4400 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8700 4450 60  0001 C CNN
+F 3 "" H 8700 4450 60  0001 C CNN
+	1    8700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U61
+U 1 1 5F46C11A
+P 7800 4750
+F 0 "U61" H 7700 4800 60  0000 L CNN
+F 1 "HOLE" H 7700 4700 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 7800 4750 60  0001 C CNN
+F 3 "" H 7800 4750 60  0001 C CNN
+	1    7800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U62
+U 1 1 5F46C120
+P 8100 4750
+F 0 "U62" H 8000 4800 60  0000 L CNN
+F 1 "HOLE" H 8000 4700 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8100 4750 60  0001 C CNN
+F 3 "" H 8100 4750 60  0001 C CNN
+	1    8100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U63
+U 1 1 5F46C126
+P 8400 4750
+F 0 "U63" H 8300 4800 60  0000 L CNN
+F 1 "HOLE" H 8300 4700 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8400 4750 60  0001 C CNN
+F 3 "" H 8400 4750 60  0001 C CNN
+	1    8400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lets_split-cache:HOLE U64
+U 1 1 5F46C12C
+P 8700 4750
+F 0 "U64" H 8600 4800 60  0000 L CNN
+F 1 "HOLE" H 8600 4700 60  0000 L CNN
+F 2 "random-keyboard-parts:MX100_slot" H 8700 4750 60  0001 C CNN
+F 3 "" H 8700 4750 60  0001 C CNN
+	1    8700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5F46E0C7
+P 5400 5550
+F 0 "H8" H 5500 5596 50  0000 L CNN
+F 1 "MountingHole" H 5500 5505 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 5400 5550 50  0001 C CNN
+F 3 "~" H 5400 5550 50  0001 C CNN
+	1    5400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5F46E0CD
+P 5400 5350
+F 0 "H7" H 5500 5396 50  0000 L CNN
+F 1 "MountingHole" H 5500 5305 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 5400 5350 50  0001 C CNN
+F 3 "~" H 5400 5350 50  0001 C CNN
+	1    5400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5F46E0D3
+P 5400 5750
+F 0 "H9" H 5500 5796 50  0000 L CNN
+F 1 "MountingHole" H 5500 5705 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 5400 5750 50  0001 C CNN
+F 3 "~" H 5400 5750 50  0001 C CNN
+	1    5400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5F46E0D9
+P 5400 5950
+F 0 "H10" H 5500 5996 50  0000 L CNN
+F 1 "MountingHole" H 5500 5905 50  0000 L CNN
+F 2 "random-keyboard-parts:plate_hole_4mm_tht" H 5400 5950 50  0001 C CNN
+F 3 "~" H 5400 5950 50  0001 C CNN
+	1    5400 5950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,12 +1,8 @@
 (fp_lib_table
   (lib (name random-keyboard-parts)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/random-keyboard-parts.pretty)(options "")(descr ""))
-  (lib (name kicad_lib_tmk-master)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/kicad_lib_tmk-master)(options "")(descr ""))
   (lib (name keebs)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/keebs.pretty-master)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/keyboard_parts.pretty-master)(options "")(descr ""))
-  (lib (name promicro)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/ProMicroKiCad-master/promicro.pretty)(options "")(descr ""))
-  (lib (name footprint)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/lets-split-pcb-hs-cherry-master/footprint.pretty)(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/MX_Alps_Hybrid.pretty/MX_Alps_Hybrid.pretty)(options "")(descr ""))
-  (lib (name MX_Only)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/Keebio-Parts.pretty-master)(options "")(descr ""))
   (lib (name acheron_Connectors)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/AcheronLibrary-master/footprints/acheron_Connectors.pretty)(options "")(descr ""))
   (lib (name acheron_Components)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/AcheronLibrary-master/footprints/acheron_Components.pretty)(options "")(descr ""))
@@ -19,4 +15,5 @@
   (lib (name acheron_Graphics)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/AcheronLibrary-master/footprints/acheron_Graphics.pretty)(options "")(descr ""))
   (lib (name acheron_Hardware)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/AcheronLibrary-master/footprints/acheron_Hardware.pretty)(options "")(descr ""))
   (lib (name Artwork)(type KiCad)(uri /Users/Rick/Documents/GitHub/Libraries/Artwork)(options "")(descr ""))
+  (lib (name Keeb_footprints)(type KiCad)(uri /Users/Rick/Documents/GitHub/Footprints/Keeb_footprints.pretty)(options "")(descr ""))
 )
