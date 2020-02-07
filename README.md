@@ -1,9 +1,9 @@
-# therick_19mm
-![alt text](https://github.com/therickthe/therick_19mm/blob/master/01%20therick_back.png)
+# therick64BA
+![alt text](https://github.com/therickthe/therick64BA/blob/master/01%20therick64BA_bottom.png)
 
 A 4x12 + 4x4 ortho keyboard with USB C, SMD components, and 19mm spacing.
 
-This is essentially a Planck clone that is dumbed down, plus a numpad. The numpad is able to be snapped off to have just a 4x12.
+This is essentially a dumbed down Planck clone plus a numpad. The numpad is able to be snapped off to have just a 4x12.
 
 **I AM CONSTANTLY TWEAKING THE DESIGN. I HAVE NOT ORDERED A PHYSICAL PCB YET.**
 
@@ -41,9 +41,6 @@ I don't wanna
 
 #### Will it fit a Planck case?
 Yes! In theory. If you break off the numpad. Hasn't been tested.
-
-#### Did you steal the Rick artwork off the internet?
-Yes
 
 #### Why USB C?
 That's a dumb question
