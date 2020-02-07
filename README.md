@@ -1,6 +1,8 @@
 # therick64BA
 ![alt text](https://github.com/therickthe/therick64BA/blob/master/01%20therick64BA_bottom.png)
 
+BA = Breakaway
+
 A 4x12 + 4x4 ortho keyboard with USB C, SMD components, and 19mm spacing.
 
 This is essentially a dumbed down Planck clone plus a numpad. The numpad is able to be snapped off to have just a 4x12.
