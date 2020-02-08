@@ -7,6 +7,8 @@ A 4x12 + 4x4 ortho keyboard with USB C, SMD components, and 19mm spacing.
 
 This is essentially a dumbed down Planck clone plus a numpad. The numpad is able to be snapped off to have just a 4x12.
 
+If you want a southpaw numpad, look at the therick64BASP. It uses the same firmware as this.
+
 **I AM CONSTANTLY TWEAKING THE DESIGN. I HAVE NOT ORDERED A PHYSICAL PCB YET.**
 
 Although everything should<sup>(tm)</sup> work as is, it hasn't been physically tested, and I like playing with the traces to make it prettier/more efficient.
@@ -14,7 +16,7 @@ Although everything should<sup>(tm)</sup> work as is, it hasn't been physically 
 **USE AT YOUR OWN RISK!!!** I am not responsible for any dumb things you do, fry your computer, break anything, etc.
 
 ## FAQ:
-#### Does it have MIT? 
+#### Does it have MIT/2x2u/etc.? 
 No. Grid for life
 
 #### Does it have backlighting?
