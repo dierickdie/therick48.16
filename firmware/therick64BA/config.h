@@ -6,11 +6,11 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0A0C
-#define DEVICE_VER      0x4444
-#define MANUFACTURER    Your_Mom
+#define PRODUCT_ID      0x0001
+#define DEVICE_VER      0x0001
+#define MANUFACTURER    therick
 #define PRODUCT         therick64BA
-#define DESCRIPTION     Just another ortho with numpad
+#define DESCRIPTION     Blatant copy of Planck with numpad
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -28,7 +28,7 @@
 */
 
 #define MATRIX_ROW_PINS { F7, F6, D4, D6 }
-#define MATRIX_COL_PINS { D7, D5, B7, B3, B2, B1, B0, E6, F0, F1, F4, F5, B4, B5, B6, C6 }
+#define MATRIX_COL_PINS { D7, D5, B7, F5, F4, F1, F0, E6, B0, B1, B2, B3, B4, B5, B6, C6 }
 #define UNUSED_PINS
 
 

@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:therick64BA_19mm-cache
+LIBS:therick64BA-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1781,7 +1781,7 @@ F 3 "" H 9400 4250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L therick64BA_19mm-rescue:Device_C_Small-shark-cache-therick_v3-rescue-therick_v2-rescue-therick-rescue-therick_19mm-rescue CX2
+L Device:C_Small CX2
 U 1 1 5DD7BA72
 P 2800 7250
 F 0 "CX2" H 2900 7300 30  0000 L CNN
@@ -1792,7 +1792,7 @@ F 3 "" H 2800 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L therick64BA_19mm-rescue:Device_C_Small-shark-cache-therick_v3-rescue-therick_v2-rescue-therick-rescue-therick_19mm-rescue CX1
+L Device:C_Small CX1
 U 1 1 5DD7ACB1
 P 2400 7250
 F 0 "CX1" H 2250 7300 30  0000 L CNN
@@ -1803,7 +1803,7 @@ F 3 "" H 2400 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L therick64BA_19mm-rescue:Device_C_Small-shark-cache-therick_v3-rescue-therick_v2-rescue-therick-rescue-therick_19mm-rescue C4
+L Device:C_Small C4
 U 1 1 5DFC24A4
 P 1650 7300
 F 0 "C4" H 1700 7350 30  0000 L CNN
@@ -1816,7 +1816,7 @@ $EndComp
 Wire Wire Line
 	1050 7150 1050 7200
 $Comp
-L therick64BA_19mm-rescue:Device_C_Small-shark-cache-therick_v3-rescue-therick_v2-rescue-therick-rescue-therick_19mm-rescue C5
+L Device:C_Small C5
 U 1 1 5E08E610
 P 1850 7300
 F 0 "C5" H 1900 7350 30  0000 L CNN
@@ -1827,7 +1827,7 @@ F 3 "" H 1850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L therick64BA_19mm-rescue:Device_C_Small-shark-cache-therick_v3-rescue-therick_v2-rescue-therick-rescue-therick_19mm-rescue C3
+L Device:C_Small C3
 U 1 1 5DFA1EF6
 P 1450 7300
 F 0 "C3" H 1500 7350 30  0000 L CNN
@@ -1838,7 +1838,7 @@ F 3 "" H 1450 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L therick64BA_19mm-rescue:Device_C_Small-shark-cache-therick_v3-rescue-therick_v2-rescue-therick-rescue-therick_19mm-rescue C2
+L Device:C_Small C2
 U 1 1 5DF8174E
 P 1250 7300
 F 0 "C2" H 1300 7350 30  0000 L CNN
@@ -1849,7 +1849,7 @@ F 3 "" H 1250 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L therick64BA_19mm-rescue:Device_C_Small-shark-cache-therick_v3-rescue-therick_v2-rescue-therick-rescue-therick_19mm-rescue C1
+L Device:C_Small C1
 U 1 1 5DF80643
 P 1050 7300
 F 0 "C1" H 1100 7350 30  0000 L CNN
