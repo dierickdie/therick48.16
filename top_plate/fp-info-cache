@@ -1,4 +1,4 @@
-16508254207213250
+16517833901348250
 acheron_Components
 ACM2012-2P
 
@@ -351,6 +351,13 @@ QMK_small
 0
 Artwork
 rick_large
+
+
+0
+0
+0
+Artwork
+THERICK
 
 
 0
@@ -49700,6 +49707,20 @@ ATMEGA32U4-AU
 44
 44
 Keeb_footprints
+Diode-dual
+
+
+0
+10
+2
+Keeb_footprints
+Diode-dual_Split
+
+
+0
+12
+2
+Keeb_footprints
 D_SOD-123_modified
 SOD-123
 SOD-123
@@ -49728,6 +49749,13 @@ MX100_outline
 0
 0
 Keeb_footprints
+MX100_Split
+
+
+0
+4
+2
+Keeb_footprints
 PIN_HEADER_1x6_OFFSET
 1x6 Header with 42 mil holes offset by 16 mils
 
@@ -49742,12 +49770,26 @@ rick_large
 0
 0
 Keeb_footprints
+TRRS_Splt
+
+
+0
+8
+4
+Keeb_footprints
 TYPE-C-31-M-12
 
 
 0
 17
 13
+Keeb_footprints
+TYPE-C-31-M-12-Split
+
+
+0
+30
+25
 keyboard_parts
 4P4C
 http://www.assmann.us/specs/A-2004-3-4-LP-N-R_REV00.pdf
