@@ -1,5 +1,5 @@
 # therick64BA
-![alt text](https://github.com/therickthe/therick64BA/blob/master/01%20therick64BA_bottom.png)
+![alt text](https://github.com/therickthe/therick48.16/blob/master/01%20therick48.16_bottom.png)
 
 BA = Breakaway
 
