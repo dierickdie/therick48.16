@@ -5,7 +5,7 @@
     (drawings 69)
     (tracks 0)
     (zones 0)
-    (modules 88)
+    (modules 89)
     (nets 1)
   )
 
@@ -112,6 +112,19 @@
     (via_drill 0.5)
     (uvia_dia 0.5)
     (uvia_drill 0.2)
+  )
+
+  (module random-keyboard-parts:Generic-Mounthole (layer F.Cu) (tedit 5C91B17B) (tstamp 5ECAF754)
+    (at 103.359728 45.979879)
+    (path /5ECA8D8E)
+    (attr virtual)
+    (fp_text reference H19 (at 0 2) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole (at 0 -2) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module random-keyboard-parts:Generic-Mounthole (layer F.Cu) (tedit 5C91B17B) (tstamp 5ECA11CE)
