@@ -6,7 +6,7 @@
     (tracks 0)
     (zones 0)
     (modules 88)
-    (nets 2)
+    (nets 1)
   )
 
   (page A4)
@@ -95,7 +95,6 @@
   )
 
   (net 0 "")
-  (net 1 GND)
 
   (net_class Default "This is the default net class."
     (clearance 0.13)
@@ -5216,24 +5215,4 @@
   (gr_line (start 101.6 53.975) (end 104.775 53.975) (layer Dwgs.User) (width 0.15))
   (gr_line (start 103.1875 55.5625) (end 103.1875 51.59375) (layer Dwgs.User) (width 0.15))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5ECA326D) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 364.04 30.95625) (xy 42.8625 30.95625) (xy 42.8625 114.3) (xy 364.04 114.3)
-      )
-    )
-  )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5ECA326A) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 362.52 31.75) (xy 43.65625 31.75) (xy 43.65625 113.50625) (xy 362.52 113.50625)
-      )
-    )
-  )
 )

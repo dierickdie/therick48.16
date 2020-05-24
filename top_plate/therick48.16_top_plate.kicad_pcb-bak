@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 30)
+    (drawings 31)
     (tracks 0)
     (zones 0)
     (modules 85)
@@ -246,7 +246,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E350435)
-    (at 350.359078 101.079734)
+    (at 346.939087 101.079734)
     (path /5F46C12C)
     (fp_text reference U64 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -309,7 +309,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E3503FD)
-    (at 331.359128 101.079734)
+    (at 327.939137 101.079734)
     (path /5F46C126)
     (fp_text reference U63 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -372,7 +372,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E351166)
-    (at 312.359178 101.079734)
+    (at 308.939187 101.079734)
     (path /5F46C120)
     (fp_text reference U62 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -435,7 +435,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E35038D)
-    (at 293.359228 101.079734)
+    (at 289.939237 101.079734)
     (path /5F46C11A)
     (fp_text reference U61 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -498,7 +498,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E350355)
-    (at 350.359078 82.079784)
+    (at 346.939087 82.079784)
     (path /5F46C114)
     (fp_text reference U60 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -561,7 +561,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E3F4ECE)
-    (at 331.359128 82.079784)
+    (at 327.939137 82.079784)
     (path /5F46C10E)
     (fp_text reference U59 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -624,7 +624,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E3502E5)
-    (at 312.359178 82.079784)
+    (at 308.939187 82.079784)
     (path /5F46C108)
     (fp_text reference U58 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -687,7 +687,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E3502AD)
-    (at 293.359228 82.079784)
+    (at 289.939237 82.079784)
     (path /5F46C102)
     (fp_text reference U57 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -750,7 +750,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E350275)
-    (at 350.359078 63.079834)
+    (at 346.939087 63.079834)
     (path /5F46C0FC)
     (fp_text reference U56 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -813,7 +813,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E35023D)
-    (at 331.359128 63.079834)
+    (at 327.939137 63.079834)
     (path /5F46C0F6)
     (fp_text reference U55 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -876,7 +876,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E350205)
-    (at 312.359178 63.079834)
+    (at 308.939187 63.079834)
     (path /5F46C0F0)
     (fp_text reference U54 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -939,7 +939,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E3501CD)
-    (at 293.359228 63.079834)
+    (at 289.939237 63.079834)
     (path /5F46C0EA)
     (fp_text reference U53 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1002,7 +1002,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E350195)
-    (at 350.359078 44.079884)
+    (at 346.939087 44.079884)
     (path /5F46C0E4)
     (fp_text reference U52 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1065,7 +1065,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E35015D)
-    (at 331.359128 44.079884)
+    (at 327.939137 44.079884)
     (path /5F46C0DE)
     (fp_text reference U51 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1128,7 +1128,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E350125)
-    (at 312.359178 44.079884)
+    (at 308.939187 44.079884)
     (path /5F46C0D8)
     (fp_text reference U50 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1191,7 +1191,7 @@
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5E350A79)
-    (at 293.359228 44.079884)
+    (at 289.939237 44.079884)
     (path /5F46C0D2)
     (fp_text reference U49 (at 0.0127 1.8288) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1254,7 +1254,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht (layer F.Cu) (tedit 5DBCB00B) (tstamp 5E34EC15)
-    (at 340.8092 93.612)
+    (at 337.389209 93.612)
     (path /5F46E0D9)
     (fp_text reference H10 (at 0.381 1.4097) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1266,7 +1266,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht (layer F.Cu) (tedit 5DBCB00B) (tstamp 5E34EC10)
-    (at 302.8092 93.612)
+    (at 299.389209 93.612)
     (path /5F46E0D3)
     (fp_text reference H9 (at 0.381 1.4097) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1278,7 +1278,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht (layer F.Cu) (tedit 5DBCB00B) (tstamp 5E34EC0B)
-    (at 340.8092 55.612)
+    (at 337.389209 55.612)
     (path /5F46E0C7)
     (fp_text reference H8 (at 0.381 1.4097) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1290,7 +1290,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht (layer F.Cu) (tedit 5DBCB00B) (tstamp 5E34EC06)
-    (at 302.8092 55.612)
+    (at 299.389209 55.612)
     (path /5F46E0CD)
     (fp_text reference H7 (at 0.381 1.4097) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4397,6 +4397,18 @@
     (pad 1 thru_hole circle (at 0.0508 -2.032) (size 4.5 4.5) (drill 4) (layers *.Cu *.Mask))
   )
 
+  (dimension 6.409933 (width 0.15) (layer Dwgs.User)
+    (gr_text "0.2524 in" (at 277.20927 27.959923) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 280.414237 34.554884) (xy 280.414237 28.673502)))
+    (feature2 (pts (xy 274.004304 34.554884) (xy 274.004304 28.673502)))
+    (crossbar (pts (xy 274.004304 29.259923) (xy 280.414237 29.259923)))
+    (arrow1a (pts (xy 280.414237 29.259923) (xy 279.287733 29.846344)))
+    (arrow1b (pts (xy 280.414237 29.259923) (xy 279.287733 28.673502)))
+    (arrow2a (pts (xy 274.004304 29.259923) (xy 275.130808 29.846344)))
+    (arrow2b (pts (xy 274.004304 29.259923) (xy 275.130808 28.673502)))
+  )
   (gr_arc (start 274.74 49.4) (end 273.6 49.4) (angle -180) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 274.74 57.76) (end 275.88 57.76) (angle -180) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 274.74 68.78) (end 273.6 68.78) (angle -180) (layer Edge.Cuts) (width 0.05))
@@ -4414,13 +4426,13 @@
   (gr_line (start 273.6 57.76) (end 273.6 68.78) (layer Edge.Cuts) (width 0.05) (tstamp 5E354F99))
   (gr_line (start 273.6 38.38) (end 273.6 49.4) (layer Edge.Cuts) (width 0.05) (tstamp 5E354F96))
   (gr_line (start 275.88 38.38) (end 275.88 49.4) (layer Edge.Cuts) (width 0.05) (tstamp 5E354F95))
-  (gr_line (start 356.06 34.96) (end 279.3 34.96) (layer Edge.Cuts) (width 0.05) (tstamp 5E35139B))
-  (gr_line (start 359.48 106.78) (end 359.48 38.38) (layer Edge.Cuts) (width 0.05) (tstamp 5E35139A))
-  (gr_line (start 279.3 110.2) (end 356.06 110.2) (layer Edge.Cuts) (width 0.05) (tstamp 5E351399))
+  (gr_line (start 352.640009 34.96) (end 279.3 34.96) (layer Edge.Cuts) (width 0.05) (tstamp 5E35139B))
+  (gr_line (start 356.060009 106.78) (end 356.060009 38.38) (layer Edge.Cuts) (width 0.05) (tstamp 5E35139A))
+  (gr_line (start 279.3 110.2) (end 352.640009 110.2) (layer Edge.Cuts) (width 0.05) (tstamp 5E351399))
   (gr_arc (start 279.3 106.78) (end 275.88 106.78) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5E35138E))
   (gr_arc (start 279.3 38.38) (end 279.3 34.96) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5E35138E))
-  (gr_arc (start 356.06 38.38) (end 359.48 38.38) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5E35138E))
-  (gr_arc (start 356.06 106.78) (end 356.06 110.2) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5E35138E))
+  (gr_arc (start 352.640009 38.38) (end 356.060009 38.38) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5E35138E))
+  (gr_arc (start 352.640009 106.78) (end 352.640009 110.2) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5E35138E))
   (gr_line (start 270.18 110.2) (end 49.78 110.2) (layer Edge.Cuts) (width 0.05) (tstamp 5E2C87FF))
   (gr_line (start 49.78 34.96) (end 270.18 34.96) (layer Edge.Cuts) (width 0.05) (tstamp 5E2C87FD))
   (gr_line (start 46.36 106.78) (end 46.36 38.38) (layer Edge.Cuts) (width 0.05) (tstamp 5E2C87FC))

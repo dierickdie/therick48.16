@@ -4415,7 +4415,7 @@
   (gr_arc (start 274.74 76.38) (end 275.88 76.38) (angle -180) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 274.74 87.4) (end 273.6 87.4) (angle -180) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 274.74 95.76) (end 275.88 95.76) (angle -180) (layer Edge.Cuts) (width 0.05))
-  (gr_text "therick48+16 Rev 1.0" (at 159.98 91.58) (layer B.SilkS)
+  (gr_text "therick48.16 Rev 1.0" (at 159.98 91.58) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
   (gr_line (start 275.88 57.76) (end 275.88 68.78) (layer Edge.Cuts) (width 0.05) (tstamp 5E35890C))
