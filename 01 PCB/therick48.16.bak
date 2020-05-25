@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:therick64BA-cache
+LIBS:therick48.16-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -3277,7 +3277,7 @@ Wire Notes Line
 Wire Notes Line
 	12350 4500 11050 4500
 Text Notes 11300 6550 0    50   ~ 0
-+16 Holes
+.16 Holes
 Wire Notes Line
 	11050 5600 11900 5600
 Wire Notes Line
