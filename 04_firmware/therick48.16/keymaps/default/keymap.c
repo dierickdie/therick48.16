@@ -9,6 +9,128 @@
 #define _LWL0 		  4
 #define _LWL1		    5
 
+// Macro keycodes
+  enum custom_keycodes {
+  INSR = SAFE_RANGE,
+  DELR,
+  INSC,
+  DELC
+};
+
+typedef struct {
+  bool is_press_action;
+  int state;
+} xtap;
+
+enum {
+  SINGLE_TAP =      1,
+  SINGLE_HOLD =     2,
+  DOUBLE_TAP =      3,
+  DOUBLE_HOLD =     4,
+  DOUBLE_SINGLE_TAP = 5, // Send two single taps
+  TRIPLE_TAP =      6,
+  TRIPLE_HOLD =     7
+};
+
+// Tap dance enums
+enum {
+  // Simple 
+  LCRLY = 0,
+  RCRLY,
+  PIPE,
+  TILDE,
+  // Complex
+  MAKE1,
+  MAKE2,
+  EMAIL,
+  LBKTS,
+  RBKTS
+};
+
+// Tap dance dance states
+// To activate SINGLE_HOLD, you will need to hold for 200ms first.
+// This tap dance favors keys that are used frequently in typing like 'f'
+int cur_dance (qk_tap_dance_state_t *state) {
+  if (state->count == 1) {
+    //If count = 1, and it has been interrupted - it doesn't matter if it is pressed or not: Send SINGLE_TAP
+    if (state->interrupted) {
+      //     if (!state->pressed) return SINGLE_TAP;
+      //need "permissive hold" here.
+      //     else return SINsGLE_HOLD;
+      //If the interrupting key is released before the tap-dance key, then it is a single HOLD
+      //However, if the tap-dance key is released first, then it is a single TAP
+      //But how to get access to the state of the interrupting key????
+      return SINGLE_TAP;
+    }
+    else {
+      if (!state->pressed) return SINGLE_TAP;
+      else return SINGLE_HOLD;
+    }
+  }
+  // If count = 2, and it has been interrupted - assume that user is trying to type the letter associated
+  // with single tap.
+  else if (state->count == 2) {
+    if (state->interrupted) return DOUBLE_SINGLE_TAP;
+    else if (state->pressed) return DOUBLE_HOLD;
+    else return DOUBLE_TAP;
+  }
+  else if ((state->count == 3) && ((state->interrupted) || (!state->pressed))) return TRIPLE_TAP;
+  else if (state->count == 3) return TRIPLE_HOLD;
+  else return 8; //magic number. At some point this method will expand to work for more presses
+}
+
+// This works well if you want this key to work as a "fast modifier". It favors being held over being tapped.
+int hold_cur_dance (qk_tap_dance_state_t *state) {
+  if (state->count == 1) {
+    if (state->interrupted) {
+      if (!state->pressed) return SINGLE_TAP;
+      else return SINGLE_HOLD;
+    }
+    else {
+      if (!state->pressed) return SINGLE_TAP;
+      else return SINGLE_HOLD;
+    }
+  }
+  // If count = 2, and it has been interrupted - assume that user is trying to type the letter associated
+  // with single tap.
+  else if (state->count == 2) {
+    if (state->pressed) return DOUBLE_HOLD;
+    else return DOUBLE_TAP;
+  }
+  else if (state->count == 3) {
+    if (!state->pressed) return TRIPLE_TAP;
+    else return TRIPLE_HOLD;
+  }
+  else return 8; // Magic number. At some point this method will expand to work for more presses
+}
+
+// For complex tap dances. Put it here so it can be used in any keymap
+void make_therick48_finished (qk_tap_dance_state_t *state, void *user_data);
+void make_therick48_reset (qk_tap_dance_state_t *state, void *user_data);
+
+void make_nori_finished (qk_tap_dance_state_t *state, void *user_data);
+void make_nori_reset (qk_tap_dance_state_t *state, void *user_data);
+
+void email_finished (qk_tap_dance_state_t *state, void *user_data);
+void email_reset (qk_tap_dance_state_t *state, void *user_data);
+
+void lbkts_finished (qk_tap_dance_state_t *state, void *user_data);
+void lbkts_reset (qk_tap_dance_state_t *state, void *user_data);
+
+void rbkts_finished (qk_tap_dance_state_t *state, void *user_data);
+void rbkts_reset (qk_tap_dance_state_t *state, void *user_data);
+
+// Tap dance definitions
+qk_tap_dance_action_t tap_dance_actions[] = {
+  [PIPE]    = ACTION_TAP_DANCE_DOUBLE(KC_BSLS, KC_PIPE),
+  [TILDE]   = ACTION_TAP_DANCE_DOUBLE(KC_GRAVE, KC_TILDE),
+  [MAKE1]    = ACTION_TAP_DANCE_FN_ADVANCED(NULL, make_therick48_finished, make_therick48_reset),
+  [MAKE2]    = ACTION_TAP_DANCE_FN_ADVANCED(NULL, make_nori_finished, make_nori_reset),
+  [EMAIL]   = ACTION_TAP_DANCE_FN_ADVANCED(NULL, email_finished, email_reset),
+  [LBKTS]   = ACTION_TAP_DANCE_FN_ADVANCED(NULL, lbkts_finished, lbkts_reset),
+  [RBKTS]   = ACTION_TAP_DANCE_FN_ADVANCED(NULL, rbkts_finished, rbkts_reset),
+};
+
 // Readability keycodes
 #define _______		  KC_TRNS
 
@@ -184,7 +306,7 @@ const uint16_t PROGMEM fn_actions[] = {
 };
 
 
-uint16_t get_tapping_term(uint16_t keycode) {
+/*uint16_t get_tapping_term(uint16_t keycode) {
   switch (keycode) {
     case CTL_T(KC_A):
  	 return 500;
@@ -193,31 +315,158 @@ uint16_t get_tapping_term(uint16_t keycode) {
     default:
       return TAPPING_TERM;
   }
-}
+}*/
 
-const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
-  keyevent_t event = record->event;
-    (void)event;
-
-  switch (id) {
-
-  }
-  return MACRO_NONE;
-}
-
-
-void matrix_init_user(void) {
-
-}
-
-void matrix_scan_user(void) {
-
-}
-
+// Macros
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case INSR: // Insert row in Sheets
+      if (record->event.pressed) { // when keycode is pressed
+        SEND_STRING(SS_LCTL(SS_LALT("i") SS_DELAY(250)) "r"); // Ctrl+Alt+i, r
+      } else { // when keycode is released
+      }
+      break;
+
+    case DELR: // Delete row in Sheets
+      if (record->event.pressed) { // when keycode is pressed
+        SEND_STRING(SS_LCTL(SS_LALT("e") SS_DELAY(250)) "d"); // Ctrl+Alt+e, d
+      } else { // when keycode is released
+      }
+      break;
+
+    case INSC: // Insert column in Sheets
+      if (record->event.pressed) { // when keycode is pressed
+        SEND_STRING(SS_LCTL(SS_LALT("i") SS_DELAY(250)) "c"); // Ctrl+Alt+i, c
+      } else { // when keycode is released
+      }
+      break;    
+
+    case DELC: // Delete column in Sheets
+      if (record->event.pressed) { // when keycode is pressed
+        SEND_STRING(SS_LCTL(SS_LALT("e") SS_DELAY(250)) "e"); // Ctrl+Alt+e, e
+      } else { // when keycode is released
+      }
+      break;
+  }
   return true;
+};
+
+// Tap dance stuff
+static xtap make_therick48_state = {
+  .is_press_action = true,
+  .state = 0
+};
+
+static xtap make_nori_state = {
+  .is_press_action = true,
+  .state = 0
+};
+
+static xtap email_state = {
+  .is_press_action = true,
+  .state = 0
+};
+
+static xtap lbkts_state = {
+  .is_press_action = true,
+  .state = 0
+};
+
+static xtap rbkts_state = {
+  .is_press_action = true,
+  .state = 0
+};
+
+//*************** MAKE *******************//
+void make_therick48_finished (qk_tap_dance_state_t *state, void *user_data) {
+  make_therick48_state.state = cur_dance(state); // Use the dance that favors being held
+  switch (make_therick48_state.state) {
+    case SINGLE_TAP: SEND_STRING("make therick48:default:dfu"); break; // send therick48 default make code
+    case DOUBLE_TAP: SEND_STRING("make therick48:macos:avrdude"); break; // send therick48 macos make code
+  }
 }
 
-void led_set_user(uint8_t usb_led) {
-
+void make_therick48_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (make_therick48_state.state) {
+    case SINGLE_TAP: ; break;
+    case DOUBLE_TAP: ; break;
+  }
+  make_therick48_state.state = 0;
 }
+
+void make_nori_finished (qk_tap_dance_state_t *state, void *user_data) {
+  make_nori_state.state = cur_dance(state); // Use the dance that favors being held
+  switch (make_nori_state.state) {
+    case SINGLE_TAP: SEND_STRING("make nori:default:dfu"); break; // send nori default make code
+    case DOUBLE_TAP: SEND_STRING("make nori:macos:avrdude"); break; // send nori macos make code
+  }
+}
+
+void make_nori_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (make_nori_state.state) {
+    case SINGLE_TAP: ; break;
+    case DOUBLE_TAP: ; break;
+  }
+  make_nori_state.state = 0;
+}
+//*************** MAKE *******************//
+
+//*************** EMAIL *******************//
+void email_finished (qk_tap_dance_state_t *state, void *user_data) {
+  email_state.state = cur_dance(state); // Use the dance that favors being held
+  switch (email_state.state) {
+    case SINGLE_TAP: register_code(KC_LSFT); register_code(KC_2); break; //send @
+    case DOUBLE_TAP: SEND_STRING("rick.c.kremer@gmail.com"); break; //send email address
+    case TRIPLE_TAP: SEND_STRING("rkremer@bushelpowered.com"); //send work email
+  }
+}
+
+void email_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (email_state.state) {
+    case SINGLE_TAP: unregister_code(KC_LSFT); unregister_code(KC_2); break; //unregister @
+    case DOUBLE_TAP: ; break;
+    case TRIPLE_TAP: ; break;
+  }
+  email_state.state = 0;
+}
+//*************** EMAIL *******************//
+
+//************* BRACKETS ******************//
+// Left brackets 
+void lbkts_finished (qk_tap_dance_state_t *state, void *user_data) {
+  lbkts_state.state = cur_dance(state); // Use the dance that favors being held
+  switch (lbkts_state.state) {
+    case SINGLE_TAP: register_code(KC_LSFT); register_code(KC_9); break; // send (
+    case DOUBLE_TAP: register_code(KC_LBRC); break; // send [
+    case TRIPLE_TAP: register_code(KC_LSFT); register_code(KC_LBRC); // send {
+  }
+}
+
+void lbkts_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (lbkts_state.state) {
+    case SINGLE_TAP: unregister_code(KC_LSFT); unregister_code(KC_9); break; // unregister (
+    case DOUBLE_TAP: unregister_code(KC_LBRC); break; // unregister [
+    case TRIPLE_TAP: unregister_code(KC_LSFT); unregister_code(KC_LBRC); // unregsister {
+  }
+  lbkts_state.state = 0;
+}
+
+// Right brackets
+void rbkts_finished (qk_tap_dance_state_t *state, void *user_data) {
+  rbkts_state.state = cur_dance(state); // Use the dance that favors being held
+  switch (rbkts_state.state) {
+    case SINGLE_TAP: register_code(KC_LSFT); register_code(KC_0); break; // send (
+    case DOUBLE_TAP: register_code(KC_RBRC); break; // send [
+    case TRIPLE_TAP: register_code(KC_LSFT); register_code(KC_RBRC); // send {
+  }
+}
+
+void rbkts_reset (qk_tap_dance_state_t *state, void *user_data) {
+  switch (rbkts_state.state) {
+    case SINGLE_TAP: unregister_code(KC_LSFT); unregister_code(KC_0); break; // unregister (
+    case DOUBLE_TAP: unregister_code(KC_RBRC); break; // unregister [
+    case TRIPLE_TAP: unregister_code(KC_LSFT); unregister_code(KC_RBRC); // unregsister {
+  }
+  rbkts_state.state = 0;
+}
+//************* BRACKETS ******************//

@@ -1,5 +1,5 @@
 
-#include "therick64BA.h"
+#include "therick48.16.h"
 
 void matrix_init_kb(void) {
 	// put your keyboard start-up code here
