@@ -470,3 +470,19 @@ void rbkts_reset (qk_tap_dance_state_t *state, void *user_data) {
   rbkts_state.state = 0;
 }
 //************* BRACKETS ******************//
+
+// Encoder
+void encoder_update_user(uint8_t index, bool clockwise) {
+  // left encoder
+  if (index == 0) {
+    switch(biton32(layer_state)){
+      case 0: // Base layer
+      if (clockwise) { // Volume control
+        tap_code(KC_VOLD);
+      } else {
+        tap_code(KC_VOLU);
+      }
+      break;
+    }
+  }
+}
